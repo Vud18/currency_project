@@ -9,7 +9,7 @@
 git clone https://github.com/Vud18/currency_project.git
 
 Перейти в рабочий каталог
-"cd currency-rate-service"
+"cd currency_service"
 
 ### 2. Создайте виртуальное окружение
 python -m venv venv

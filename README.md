@@ -6,7 +6,7 @@
 
 ### 1. Клонируйте репозиторий
 
-git clone https://github.com/Vud18/currency_service.git
+git clone https://github.com/Vud18/currency_project.git
 
 Перейти в рабочий каталог
 "cd currency-rate-service"

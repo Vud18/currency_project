@@ -8,14 +8,14 @@
 
 git clone https://github.com/Vud18/currency_project.git
 
-Перейти в рабочий каталог
-"cd currency_service"
-
 ### 2. Создайте виртуальное окружение
 python -m venv venv
 source venv/bin/activate # Для Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
+
+Перейти в рабочий каталог
+"cd currency_service"
 
 ### 3. Примените миграции
 python manage.py migrate

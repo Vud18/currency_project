@@ -22,9 +22,6 @@ class CurrencyRateService:
     def get_last_10_requests():
         """
         Метод для получения последних 10 запросов курса валют из базы данных.
-
-        Возвращает:
-            QuerySet: Последние 10 запросов курса валют.
         """
         return CurrencyRateRequest.objects.order_by('-timestamp')[:10]
 
